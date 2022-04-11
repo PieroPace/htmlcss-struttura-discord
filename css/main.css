@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+header{
+    background-color: aquamarine;
+    padding: 1em 0;
+    
+    }
+body {
+    font-family: "Fredoka", sans-serif;
+    }
+
+
+.border-dash{
+    border: 0.2rem dashed black;
+}
+
+.width25{
+    width: 25%;
+
+}
+
+.width50{
+    width: 50%;
+    border-top: 0.2rem dashed black;
+    border-bottom: 0.2rem dashed black;
+
+}
+
+.padding1em{
+    padding: 0.5em;
+}
+
+.flex{
+    display: flex;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.nav .width50{
+    align-items: center;
+    justify-content: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.list{
+    list-style: none;
+}
+
+.list li{
+    margin-right: 0.5em;
+}
+
+
+
+.container {
+        width: 100%;
+        max-width: 960px;
+        min-width: 300px;
+        margin: 0 auto;
+        }
+
+.nav{
+    background-color: rgb(216, 186, 53);
+}
+
+.jumbo{
+    background-color: blue;
+    
+}
+
+.paddingtopbot{
+    padding: 2em 0;
+}
+
+.container-jumbo{
+    background-color: rgb(230, 98, 164);
+    height: 300px;
+    width: 100%;
+    max-width: 700px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+.brgrey{
+    background-color: #d4d2d4 ;
+}
+
+
+.pink{
+    width: 40%;
+    background-color: pink;
+}
+
+.lightblu{
+    width: 60%;
+    background-color: rgb(23, 115, 235);
+}
+
+.height400{
+    height: 400px;
+}
+
+.bggreen{
+    background-color: green;
+    height: 600px;
+}
+
+.bgdark{
+    background-color: rgb(41, 40, 40);
+}
+
+.width40{
+    width: 40%;
+    background-color: rgb(185, 140, 148);
+}
+
+.width15{
+    width: 15%;
+    background-color: aqua;
+}
+
+.footerbot{
+    margin-top: 2em;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(157, 226, 203);
+    height: 4em;
+}
+
+.footerbot div{
+    padding: 5px;
+}
+
+.footertop{
+    padding: 0.4em 0 2em ;
+}
